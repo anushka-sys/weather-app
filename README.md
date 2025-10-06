@@ -2,21 +2,13 @@
 
 A **modern, responsive, single-page weather application** built with **React, Tailwind CSS, TanStack Query, and shadcn/ui**. This app allows users to search for cities, view current weather and a 5-day forecast, manage favorites, and toggle dark mode.
 
----
 
-##  Demo-Link
+
+# 🔗  Demo-Link
 
 https://weathercheker.netlify.app/
 
 
-<img width="1905" height="850" alt="image" src="https://github.com/user-attachments/assets/b9a9d307-2895-4d14-b8ab-0fb672531c29" />
-
-#Light mode#
-
-<img width="1887" height="860" alt="image" src="https://github.com/user-attachments/assets/5e92324c-a0d5-42bf-9376-1fa1faafc2dc" />
-
-
----
 
 ## ✨ Features
 
@@ -83,6 +75,15 @@ https://weathercheker.netlify.app/
 2.  This input triggers a data fetch using **TanStack Query**.
 3.  The application uses the city name to fetch current weather and a 5-day forecast from the **OpenWeatherMap API**.
 4.  Data is then displayed in the Current Weather and 5-Day Forecast components.
+---
+## 📸 Project images
+
+<img width="1905" height="850" alt="image" src="https://github.com/user-attachments/assets/b9a9d307-2895-4d14-b8ab-0fb672531c29" />
+
+  ### Light Mode
+
+<img width="1887" height="860" alt="image" src="https://github.com/user-attachments/assets/5e92324c-a0d5-42bf-9376-1fa1faafc2dc" />
+
 
 ### Persistence
 -   The last searched cities and user-defined favorite cities are managed and stored in the browser's **LocalStorage**, ensuring data remains available even after the user closes and reopens the app.
